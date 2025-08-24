@@ -1,3 +1,8 @@
+"""
+Takes an input of "[PA systoic - PA diastolic] / PA mean" direclty from Merlin.net 
+Indentifies subtle directional changes over time AKA drift
+"""
+
 from typing import Dict, List
 import numpy as np
 
