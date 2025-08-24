@@ -1,7 +1,7 @@
 """
-This module provides functions for analyzing waveform data.
-
-The waveform data is expected to be a list of [pressure, time] pairs.
+This module provides functions for analyzing waveform data that has made it through the first pass filter.
+The waveform data is expected to be a list of floating point [pressure, time] pairs.
+Returns the unweighted mean of the most stable section of the waveform.
 """
 
 import numpy as np
