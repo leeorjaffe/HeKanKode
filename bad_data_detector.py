@@ -1,3 +1,9 @@
+"""
+Takes inputs of "[PA systoic - PA diastolic] / PA mean" direclty from Merlin.net to create an ever expanding array.
+Indentifies if a new value deviates sharply from baseline.
+Requires a separate mechanism to review and exclude bad data.
+"""
+
 import numpy as np
 
 def t_prediction_test(baseline, x_new, alpha=0.01):
