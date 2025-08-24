@@ -1,5 +1,5 @@
 """
-Takes an input of "[PA systoic - PA diastolic] / PA mean" direclty from Merlin.net 
+Takes inputs of "[PA systoic - PA diastolic] / PA mean" direclty from Merlin.net to create an ever expanding array.
 Indentifies subtle directional changes over time AKA drift
 """
 
