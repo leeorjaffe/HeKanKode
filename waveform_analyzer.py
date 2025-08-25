@@ -1,5 +1,5 @@
 """
-This module provides functions for analyzing waveform data that has made it through the first pass filter.
+This module provides functions for analyzing waveform data that has made it through the bad_data_detector.
 The waveform data is expected to be a list of floating point [pressure, time] pairs.
 Returns the unweighted mean of the most stable section of the waveform.
 """
