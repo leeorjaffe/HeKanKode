@@ -1,7 +1,9 @@
 """
-Takes inputs of "[PA systoic - PA diastolic] / PA mean" direclty from Merlin.net to create an ever expanding array.
 Indentifies if a new value deviates sharply from baseline.
+Takes input of "baseline": an ever expanding, array of "[PA systoic - PA diastolic] / PA mean" 
+using data direclty from Merlin.net - this will need to be coded separately.
 Requires a separate mechanism to review and exclude bad data.
+Best used with scipy.stats module, although there is backup code if neccessary.
 """
 
 import numpy as np
